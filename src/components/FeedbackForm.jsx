@@ -38,14 +38,14 @@ export default function FeedbackForm({ onClose }) {
         <div>
           <label className="block mb-1">First Name:</label>
           <input value={form.firstName} onChange={(e)=>setForm({...form, firstName: e.target.value})}
-            className="w-full p-3 rounded bg-white shadow-sm" placeholder="John" />
+            className="w-full p-3 rounded bg-white shadow-sm" placeholder="Rudra" />
           {errors.firstName && <div className="text-red-500 text-sm">{errors.firstName}</div>}
         </div>
 
         <div>
           <label className="block mb-1">Last Name:</label>
           <input value={form.lastName} onChange={(e)=>setForm({...form, lastName: e.target.value})}
-            className="w-full p-3 rounded bg-white shadow-sm" placeholder="Doe" />
+            className="w-full p-3 rounded bg-white shadow-sm" placeholder="Yadav" />
           {errors.lastName && <div className="text-red-500 text-sm">{errors.lastName}</div>}
         </div>
 
